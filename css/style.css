@@ -51,7 +51,7 @@ body{
     height: 550px;
 }
 a{
-    color: #ccccff;
+    color: #CCCCFF !important;
 }
 
 .hovered-question:hover{
@@ -90,9 +90,20 @@ a:hover{
     color: #fff;
     text-align: center;
 }
+.card-body h2 {
+    font-size: 40px;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
 
 code{
-    font-size: 135% !important;
+     font-size: 18px !important;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 .height-proogramming-lang {
